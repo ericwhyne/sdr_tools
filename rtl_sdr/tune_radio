@@ -1,0 +1,2 @@
+#!/bin/bash
+rtl_fm -f 153.350M | aplay -r 24k -f S16_LE -t raw -c 1
